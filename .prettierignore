@@ -1,0 +1,15 @@
+# Dependencies, build output, and generated files
+node_modules/
+.next/
+coverage/
+artifacts/
+*.tsbuildinfo
+next-env.d.ts
+package-lock.json
+docs/STARTER-SOURCE.md
+wordpress/examples/*.json
+
+# Private environment files and formats without a configured Prettier plugin
+.env*
+wordpress/**/*.php
+public/**/*.svg

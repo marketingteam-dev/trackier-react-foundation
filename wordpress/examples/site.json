@@ -1,0 +1,64 @@
+{
+  "name": "Trackier · demo",
+  "navigation": [
+    {
+      "label": "Explore the starter",
+      "href": "/react-demo/",
+      "children": [
+        {
+          "label": "Marketing template",
+          "href": "/react-demo/"
+        },
+        {
+          "label": "Another page",
+          "href": "/react-demo/reuse/"
+        }
+      ]
+    },
+    {
+      "label": "Common questions",
+      "href": "/react-demo/#faq"
+    },
+    {
+      "label": "WordPress blog ↗",
+      "href": "https://trackier.com/blog/"
+    }
+  ],
+  "headerCta": {
+    "label": "See page reuse",
+    "href": "/react-demo/reuse/"
+  },
+  "footer": {
+    "description": "A local demonstration of a shared website foundation. Replace this copy with approved content before launch.",
+    "columns": [
+      {
+        "title": "Sample pages",
+        "links": [
+          {
+            "label": "Marketing template",
+            "href": "/react-demo/"
+          },
+          {
+            "label": "Reused template",
+            "href": "/react-demo/reuse/"
+          }
+        ]
+      },
+      {
+        "title": "Explore",
+        "links": [
+          {
+            "label": "Questions",
+            "href": "/react-demo/#faq"
+          },
+          {
+            "label": "Live WordPress blog ↗",
+            "href": "https://trackier.com/blog/"
+          }
+        ]
+      }
+    ],
+    "socialLinks": [],
+    "copyright": "Demonstration content — not the live Trackier website."
+  }
+}

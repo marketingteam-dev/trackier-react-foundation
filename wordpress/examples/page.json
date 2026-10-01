@@ -1,0 +1,69 @@
+{
+  "seo": {
+    "title": "Marketing page starter | Local demonstration",
+    "description": "Sample content showing a reusable marketing page powered by structured WordPress content.",
+    "noIndex": true
+  },
+  "hero": {
+    "eyebrow": "A foundation for what comes next",
+    "heading": "One website.\nRoom to grow.",
+    "description": "Keep publishing in WordPress. Build selected experiences with reusable React components. This demonstration shows how the pieces fit together.",
+    "primaryCta": {
+      "label": "Explore a second page",
+      "href": "/react-demo/reuse/"
+    },
+    "secondaryCta": {
+      "label": "How this works",
+      "href": "#features"
+    },
+    "image": {
+      "url": "/react-assets/foundation.svg",
+      "alt": "WordPress content feeds reusable page sections inside a shared website layout.",
+      "width": 680,
+      "height": 500
+    }
+  },
+  "features": {
+    "heading": "A few building blocks. Many possibilities.",
+    "items": [
+      {
+        "title": "Content in one place",
+        "description": "Headings, links, images, and page sections are supplied by WordPress or the explicit local sample data."
+      },
+      {
+        "title": "A familiar experience",
+        "description": "Every React page uses the same header, footer, spacing, colors, and accessible components."
+      },
+      {
+        "title": "Grow one page at a time",
+        "description": "Only deliberately assigned URLs use this frontend. Existing WordPress pages keep their own routes."
+      }
+    ]
+  },
+  "testimonials": [],
+  "faq": {
+    "heading": "A clear starting point.",
+    "items": [
+      {
+        "question": "Is this the live Trackier website?",
+        "answer": "No. This is sample content in a local starter. It does not change the live site or make claims about the company."
+      },
+      {
+        "question": "Where will the page content come from?",
+        "answer": "In WordPress mode, the server requests published structured fields from the accompanying WordPress integration plugin."
+      },
+      {
+        "question": "Can the existing website stay online?",
+        "answer": "Yes. Your web server can send only an explicit list of selected paths to this application, leaving other paths with WordPress."
+      }
+    ]
+  },
+  "cta": {
+    "heading": "The next page starts here.",
+    "description": "See the same layout and sections with different sample content.",
+    "link": {
+      "label": "View the second example",
+      "href": "/react-demo/reuse/"
+    }
+  }
+}
