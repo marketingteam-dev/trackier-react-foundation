@@ -2,6 +2,7 @@
 
 * { box-sizing: border-box; }
 html { scroll-padding-top: 7rem; }
+html:has(.trackier-page) { scroll-behavior: smooth; scroll-padding-top: 24px; }
 body { margin: 0; color: var(--color-ink); background: var(--color-white); font-family: var(--font-body); line-height: 1.65; -webkit-font-smoothing: antialiased; }
 a { color: inherit; text-underline-offset: .2em; }
 button, input { font: inherit; }
